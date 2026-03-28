@@ -37,8 +37,8 @@ It retrieves information from multiple PDFs, evaluates relevance, optionally per
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+[git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name](https://github.com/Nitya-Pahwa/Corrective-RAG-Based-ML-Tutor.git)
 ```
 ### 2. Install dependencies
 
