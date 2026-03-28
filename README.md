@@ -24,15 +24,35 @@ It retrieves information from multiple PDFs, evaluates relevance, optionally per
 - Tavily API (Web Search)
 - Python
 
-## Setup API Keys
+## Project Structure
+```bash
+├── documents/  
+├── Final.ipynb
+├── README.md 
+└── requirements.txt
+```
 
-Set your API keys before running:
+## Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Set your API keys before running
+
 ```bash
 import os
 os.environ["GROQ_API_KEY"] = "your_groq_key"
 os.environ["TAVILY_API_KEY"] = "your_tavily_key"
 ```
-
 
 ## How It Works
 1. Document Processing
